@@ -1,0 +1,27 @@
+.container {
+  
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 5px; /* Space between squares */
+  width: 300px; /* Adjust grid size */
+  margin: 0 auto; /* Center the board */
+}
+
+.square {
+  width: 100px; /* Each square's size */
+  height: 100px;
+  background-color: #f0f0f0; /* Light grey background */
+  border: 1px solid #ddd;
+  font-size: 2rem; /* Text size for "X" or "O" */
+  text-align: center;
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  cursor: pointer;
+}
+
+.square:hover {
+  background-color: #e0e0e0; /* Slightly darker hover effect */
+}
+
+
+
+
